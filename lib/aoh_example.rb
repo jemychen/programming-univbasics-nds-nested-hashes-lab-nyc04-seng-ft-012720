@@ -16,7 +16,9 @@ end
 def literal_aoh
   # Using Array literal syntax only, build a nested array that uses the data in
   # held in the constants
-  characters = [DON_G, JOELLE_VD, PAT_M, KATE_G, BRUCE_G]
+  characters = [
+    { name:  "Don Gately", occupation: "Live-in Staff" },{ name:  "Joelle van Dyne", occupation: "Radio Personality" }
+    ,{ name:  "Pat Monteseian", occupation: "Staff" }, { name:  "Kate Gompert", occupation: "None" }, { name:  "Bruce Green", occupation: "Fan of Mildred" }]
   characters.sort
 end
 
